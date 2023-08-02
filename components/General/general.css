@@ -1,0 +1,41 @@
+.product-input{
+    width: 90%;
+    height: 10%;
+    border-radius: 5px;
+    border: 1px solid gainsboro ;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.product-input-desc{
+    width: 90%;
+    height: 80px;
+    border-radius: 5px;
+    border: 1px solid gainsboro ;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.category-dropdown{
+    width: 91%;
+    height: 30px;
+}
+.upload{
+    border: 1px solid black;
+    width: 80%;
+    height: 80%;
+    background-image:url("../../assets/images/upload-pictures-icon.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: 100px;
+    background-position-x:center ;
+    background-position-y: center ;
+    display: block;
+    border-style: dashed;
+    /* border-spacing:12px ; */ 
+    color: #0000;
+    border-radius: 8px;
+    margin-right: auto;
+    margin-left: auto;
+}
+::-webkit-file-upload-button{
+    display: none;
+}

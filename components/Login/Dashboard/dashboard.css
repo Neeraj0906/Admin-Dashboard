@@ -1,0 +1,24 @@
+.dashboard-container{
+   width: 100%;
+   margin-top: 20px;
+   /* ff */
+   padding-left: 10px ;
+}
+.welcome-info{
+    display: flex;
+    width: 100%;
+    /* overflow: scroll; */
+    margin-left: 20px;
+}
+.line-charts{
+    width: 94%;
+    display: flex;
+    /* overflow: scroll; */
+    margin-top: 20px;
+    overflow-x: scroll;
+    height: 300px;
+}
+
+.more-charts{
+    display: flex;
+}
